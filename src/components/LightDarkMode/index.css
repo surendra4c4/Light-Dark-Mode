@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.content-container-dark {
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #000000;
+}
+
+.content-container-white {
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+}
+
+.white-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.dark-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.light-btn {
+  background-color: #ffffff;
+  color: #000000;
+  border-width: 1px;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.dark-btn {
+  background-color: #ffffff;
+  color: #000000;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #000000;
+  padding: 5px;
+}
